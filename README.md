@@ -1,8 +1,5 @@
-# XHY WebApp
-
-基于 Flask 的轻量级 Python Web 应用，运行在 Ubuntu 26.04 LTS 容器中。
-
 ## 📖 项目简介
+基于 Flask 的轻量级 Python Web 应用，运行在 Ubuntu 26.04 LTS 容器中。
 
 这是一个简单的 Flask Web 应用示例项目，用于测试 Docker 多架构镜像构建与推送流程。应用监听 5000 端口，访问根路径返回 `Hello {PROVIDER}!`，其中 `PROVIDER` 可通过环境变量自定义。
 
